@@ -10,7 +10,7 @@
    <header class="header">
     <nav class="navbar">
         <a href="#">Home</a>
-        <a href="#">Portfolio</a>
+        <a href="#">Market</a>
           <a href="#">About</a>
           <a href="#">Contact</a>
           <a href="#">Help</a>
