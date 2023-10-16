@@ -1,26 +1,33 @@
+<!-- PHP -->
+<?php
+
+
+
+?>
+<!-- HTML -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>The Elite</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="img/general/theelitelogo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <!-- NAVBAR CREATION -->
+    <!-- NAVBAR -->
    <header class="header">
     <nav class="navbar">
-        <a href="#">Home</a>
+        <a href="index.php">Home</a>
         <a href="#">Market</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Help</a>
+          <a href="About.html">About</a>
+          <a href="help.html">Help</a>
     </nav>
     <form action="" class="search-bar">
        <input type="text" placeholder="Search...">
        <button><i class='bx bx-search'></i></button>
     </form>
    </header>
-    <!-- LOGIN FORM CREATION -->
+    <!-- LOGIN FORM -->
     <div class="background"></div>
     <div class="container">
         <div class="item">
@@ -39,18 +46,19 @@
                 </div>
             </div>
         </div>
+        <!-- Login Box -->
         <div class="login-section">
             <div class="form-box login">
                 <form action="">
                     <h2>Sign In</h2>
                     <div class="input-box">
                         <span class="icon"><i class='bx bxs-envelope'></i></span>
-                        <input type="email" required>
+                        <input type="email" name="email" id="email" placeholder="email" required>
                         <label >Email</label>
                     </div>
                     <div class="input-box">
                         <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
-                        <input type="password" required>
+                        <input type="password" name="password" id="password" required>
                         <label>Password</label>
                     </div>
                     <div class="remember-password">
@@ -86,7 +94,7 @@
                     <div class="remember-password">
                         <label for=""><input type="checkbox">I agree with this statment</label>
                     </div>
-                    <button class="btn">Login In</button>
+                    <button class="btn">Register</button>
                     <div class="create-account">
                         <p>Already Have An Account? <a href="#" class="login-link">Sign In</a></p>
                     </div>
