@@ -17,6 +17,7 @@
     <title>The Elite</title>
 </head>
 <body>
+    <!-- NAVBAR -->
     <nav>
         <div class="nav-logo">
             <a href="#">
@@ -33,6 +34,7 @@
         </ul>
     </nav>
 
+<!-- HEADER -->
     <header class="container">
         <div class="content">
             <span class="blur"></span>
@@ -52,9 +54,11 @@
         </div>
     </header>
 
+<!-- SECTION ADVANTAGES -->
     <section class="container">
         <h2 class="header">OUR ADVANTAGES</h2>
         <div class="features">
+            <!-- CARD DAFTAR ADVANTAGES -->
             <div class="card">
                 <span><i class="ri-money-dollar-box-line"></i></span>
                 <h4>Exclusive Collection</h4>
@@ -93,12 +97,14 @@
         </div>
     </section>
 
+<!-- SECTION PRICING PLANS -->
     <section class="container">
         <h2 class="header">PRICING PLANS</h2>
         <p class="sub-header">
             Our pricing plans come with various membership tiers, each tailored to cater to different type of investment and
             type of member.
         </p>
+        <!-- CARD DAFTAR MEMBERSHIP -->
         <div class="pricing">
             <div class="card">
                 <div class="content">
@@ -172,6 +178,7 @@
         </div>
     </section>
 
+<!-- FOOTER -->
     <footer class="container">
         <span class="blur"></span>
         <span class="blur"></span>
